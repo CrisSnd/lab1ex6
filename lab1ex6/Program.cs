@@ -25,14 +25,14 @@ namespace MyApp
 
             if (n1 > n2 && n2 > n3 && n3 < n1)
             {
-              Console.WriteLine("\n"+n1 +" " + n2 + " " + n3);
+                Console.WriteLine("\n" + n1 + " " + n2 + " " + n3);
             }
 
 
 
             else if (n1 > n2 && n2 < n3 && n3 < n1)
             {
-               Console.WriteLine("\n" + n1 + " " + n3 + " " + n2);
+                Console.WriteLine("\n" + n1 + " " + n3 + " " + n2);
             }
 
 
@@ -61,6 +61,11 @@ namespace MyApp
             else if (n1 < n2 && n2 > n3 && n3 < n1)
             {
                 Console.WriteLine("\n" + n2 + " " + n1 + " " + n3);
+            }
+
+            else if (n1 == n2 && n2 == n3 && n3 == n1)
+            {
+                Console.WriteLine("\n" +"Toate cele 3 numere sunt egale: " + n1 + "=" + n2 + "=" + n3);
             }
         }
     }
